@@ -1,0 +1,232 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+    min-width:320px;
+}
+
+.header {
+    padding: 20px;
+    margin-right:3%;
+    margin-left: 3%;
+    font-family: impact;
+    background-color: #13293D;
+    color: #ffffff;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;   
+    align-items: center;   
+}
+
+h1 {
+        font-size: 48px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    margin-left: 25px;
+    font-size: 20px;
+    display:inline-block;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.biopic {
+    height:850px;
+    
+        align-items:center;
+    margin-bottom: 25px;
+    margin-right:3%;
+    margin-left: 3%;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position:top;  
+}
+
+.content {
+    width: 94%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-right: 3%
+}
+
+.bio {
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a628f;
+    color: #ffffff;
+}
+
+.html {
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a628f;
+    color: #ffffff;
+}
+
+.projects {
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 20px;
+    margin-right:3%;
+    margin-left: 3%;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a628f;
+    color: #ffffff;
+}
+.assignments {
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 20px;
+    margin-right:3%;
+    margin-left: 3%;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2a628f;
+    color: #ffffff;
+}
+.bio img {
+    max-height: 200px;
+    max-width: 250px;
+     margin-right:5%;
+}
+
+.projects img {
+    max-height: 200px;
+    max-width: 250px;
+    margin-right:5%;
+}
+
+.assignments img {
+    max-height: 200px;
+    max-width: 250px;
+    margin-right:5%;
+}
+
+.bio h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.projects h2 {
+    margin-left: 5%;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.projects p {
+    margin-left: 5%;
+}
+.assignments h2 {
+    margin-left: 5%;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.assignments p {
+    margin-left: 5%;
+}
+
+.footer {
+    padding: 30px;
+    margin-left:3%;
+    margin-right:3%;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color:#13293D;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+.clear {
+    clear: both;
+}
+    @media screen and (max-width: 992px) {
+    .header {
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .header div {
+        width:100%;
+        margin:0;
+    }
+    
+    .header div ul {
+        display:flex;
+        justify-content:space-between;
+    }
+    .header div ul li {
+        display: flex;
+        flex-wrap:wrap;
+    } 
+   
+.bio {
+     
+        flex-wrap:wrap;
+        justify-content:center;
+    }  
+
+.projects {
+        flex-wrap:wrap;
+        justify-content:center;    
+    }  
+        
+.assignments {
+        flex-wrap:wrap;
+        justify-content:center;
+    }  
+
+  
+}
+
+    @media screen and (max-width: 600px) {
+    .biopic {
+            max-height:400px;
+     }
+       
+     p {
+            font-size: 14px;
+        }
+       
+    .content {
+            width:95%;
+            margin-left: 0;
+            margin-right:0;
+            }
+
+            .projects img {
+                max-height: 200px;
+                max-width:95%;
+                margin-right:5%;
+            }
+            
+            .assignments img {
+                max-height: 200px;
+                max-width:95%;
+                margin-right:5%;
+            }
+           
+    }
